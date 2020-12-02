@@ -59,7 +59,5 @@ bin/*
 bin/bootstrap
 bin/lib-bash
 
-.vscode
-pdfiumrender
-out.png
-in.pdf
+*pdf
+*png

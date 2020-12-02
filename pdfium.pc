@@ -1,0 +1,11 @@
+prefix=/home/evan/resources/go-pdfium-render
+libdir=lib
+includedir=include
+
+Name: pdfium
+Description: pdfium
+Version: 3580
+Requires:
+
+Libs: -L${libdir} -lpdfium
+Cflags: -I${includedir}

@@ -1,10 +1,10 @@
 package main
 
 // #cgo pkg-config: pdfium
-// #include "fpdfview.h"
-// #include "fpdf_annot.h"
-// #include "fpdf_edit.h"
-// #include "fpdf_structtree.h"
+// #include "include/fpdfview.h"
+// #include "include/fpdf_annot.h"
+// #include "include/fpdf_edit.h"
+// #include "include/fpdf_structtree.h"
 import "C"
 
 import (
